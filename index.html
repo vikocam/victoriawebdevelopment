@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website of Victoria Webdevelopment">
+    <meta name="keywords" content="Victoria Webdevelopment, web development, Netherlands">
+    <meta name="author" content="Victoria Camiña">
+    <title>Victoria Webdevelopment</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <section>
+            <div class="container">
+                <div class="row">
+                        <div class="col-lg-3">
+                            <h1 class="logo">V</h1>
+                            <!--<h1 class="logo">Victoria <br><span>Web development</span></h1>-->
+                            <h2>Web development in the Netherlands</h2>
+                        </div>
+                        <div class="col-lg-9">
+                            <nav class="menu">
+                                <ul class="nav justify-content-end">
+                                    <li class="nav-item"><a class="nav-link" href="#aboutme">About me</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#projects">{Projects}</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                                    
+                                </ul>
+                            </nav>
+                        </div>
+                    
+                </div>
+            </div>
+            <div class="container intro">
+                <h3>Front end developer</h3>
+            </div>
+        </section>
+    </header>
+    <section id="aboutme">
+        <!-- Content for section 2 goes here -->
+        <div class="container">
+            <div class="row">
+                <div class="mx-auto text-center">
+                    <h3 class="heading-sec">About Me</h3>
+                    <!--<p class="heading-sec-sub">Welcome to my website! Here you can learn more about me and my experience in web development.</p>-->
+                </div>
+                <div class="col-lg-7">
+                    <p>My name is Victoria Camiña and I am a web developer based in the Netherlands. I have been working in the field of web development for over 10 years and have experience in a wide range of technologies including HTML, CSS, JavaScript, PHP, and more. I am passionate about creating beautiful and functional websites that help my clients achieve their goals. I am always looking for new opportunities to work with clients who are looking to take their online presence to the next level.</p>
+                </div>
+                <div class="col-lg-5">
+                    <img src="images/victoria.jpg" alt="Victoria Camiña" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="mx-auto text-center">
+                    <h3 class="heading-sec">Technologie stack</h3>
+                    <p class="heading-sec-sub"></p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/project1.jpg" alt="Project 1" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h4>Prototyping</h4>
+                    <p>I use high-fidelity prototypes to get the best experience for your site.</p>
+                </div>  
+                <div class="col-lg-4">
+                    <h4>Web design (UX/UI)</h4>
+                    <p>My main focus is designing pixel perfect websites and interfaces.</p>
+                </div> 
+                <div class="col-lg-4">
+                    <h4>Web Development</h4>
+                    <p>I build websites from scratch that clients can manage in the way they want.</p>
+                </div>       
+            </div>
+        </div>
+    </section>
+   
+    <section id="projects">
+        <!-- Content for section 3 goes here -->
+        <div class="container">
+            <div class="row">
+                <div class="mx-auto text-center">
+                    <h3 class="heading-sec">My Projects</h3>
+                    <p class="heading-sec-sub">Check out some of my previous projects below.</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/project1.jpg" alt="Project 1" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <!-- Content for section 4 goes here -->
+        <div class="container">
+            <div class="col-lg-9 mx-auto">
+                <div class="mx-auto text-center">
+                    <h3 class="heading-sec">Let's talk</h3>
+                    <p class="heading-sec-sub">Do you have a project you would like to discuss? Please fill out the form below and I will get back to you as soon as possible.</p>
+                </div>
+                <form action="pages/send_email.php" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">What is your name?</label>
+                        <input type="text" placeholder="type your name" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">What is your email?</label>
+                        <input type="email" placeholder="type your email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="company" class="form-label">What is your company name?</label>
+                        <input type="text" placeholder="type your company" id="company" name="company" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your message</label>
+                        <textarea id="message" placeholder="I want to have an amazing website" name="message" rows="4" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

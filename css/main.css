@@ -1,0 +1,166 @@
+/* Reset de algunos estilos de navegadores */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+/* Estilos para las listas */
+ul , li {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Estilos para los encabezados */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+}
+
+/* Añade tus propios estilos aquí */
+
+@font-face {
+    font-family: 'Beanco Font';
+    src: url(../assets/fonts/BeancoFont.eot);
+    src: url(../assets/fonts/BeancoFont.eot?#iefix) format('embedded-opentype'),
+         url(../assets/fonts/BeancoFont.woff2) format('woff2'),
+         url(../assets/fonts/BeancoFont.woff) format('woff'),
+         url(../assets/fonts/BeancoFont.svg#BeancoFont) format('svg'),
+         url(../assets/fonts/BeancoFont.ttf) format('truetype'),
+         url(../assets/fonts/BeancoFont.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'LexendDeca-Regular';
+    src: url(../assets/fonts/LexendDeca-Regular.eot);
+    src: url(../assets/fonts/LexendDeca-Regular.eot?#iefix) format('embedded-opentype'),
+         url(../assets/fonts/LexendDeca-Regular.otf) format('otf'),
+         url(../assets/fonts/LexendDeca-Regular.svg#LexendDeca-Regular) format('svg'),
+         url(../assets/fonts/LexendDeca-Regular.ttf) format('truetype'),
+         url(../assets/fonts/LexendDeca-Regular.woff) format('woff'),
+         url(../assets/fonts/LexendDeca-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'LexendDeca-Medium';
+    src: url(../assets/fonts/LexendDeca-Medium.eot);
+    src: url(../assets/fonts/LexendDeca-Medium.eot?#iefix) format('embedded-opentype'),
+         url(../assets/fonts/LexendDeca-Medium.svg#LexendDeca-Medium) format('svg'),
+         url(../assets/fonts/LexendDeca-Medium.otf) format('otf'),
+         url(../assets/fonts/LexendDeca-Medium.ttf) format('truetype'),
+         url(../assets/fonts/LexendDeca-Medium.woff) format('woff'),
+         url(../assets/fonts/LexendDeca-Medium.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'LexendDeca-Light';
+    src: url(../assets/fonts/LexendDeca-Light.eot);
+    src: url(../assets/fonts/LexendDeca-Light.eot?#iefix) format('embedded-opentype'),
+         url(../assets/fonts/LexendDeca-Light.otf) format('otf'),
+         url(../assets/fonts/LexendDeca-Light.svg#LexendDeca-Light) format('svg'),
+         url(../assets/fonts/LexendDeca-Light.ttf) format('truetype'),
+         url(../assets/fonts/LexendDeca-Light.woff) format('woff'),
+         url(../assets/fonts/LexendDeca-Light.woff2) format('woff2');
+}
+
+:root {
+    --col-primary: #F9E8D8; 
+    --col-secondary: #79B294;
+    --col-third: #009AA6;
+}
+
+h1.logo{
+    font-family: 'Beanco Font', sans-serif ;
+    font-size: 4.2rem;
+    line-height: 1.9rem;
+}
+
+h1.logo span{
+    font-size: 1.6rem;
+    padding-left: 1.5rem;
+}
+
+h2 {
+    display: none;
+}
+
+h3 {
+    font-family: 'LexendDeca-Medium', Helvetica, sans-serif;
+}
+
+section#aboutme, section#contact, section#projects {
+    padding: 3rem 0;
+}
+
+p {
+    font-family: 'LexendDeca-Light', Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--bs-body-color);
+}
+
+header {
+    padding: 3rem 0 1.6rem 0;
+}
+
+header h3{
+    font-family: 'Beanco Font';
+    font-size: 5rem;
+}
+
+.menu .nav-link {
+    color: var(--bs-heading-color);
+    font-family: 'LexendDeca-Medium', Helvetica, sans-serif;
+}
+
+.menu .nav-link:hover {
+    color: var(--col-third);
+}
+
+menu .nav-link:active {
+    color: var(--col-third);
+}
+
+#contact{
+    background-color:var(--col-secondary);
+}
+
+.heading-sec{
+    font-size: 2.4rem;
+    padding-bottom: 1.6rem;
+}
+
+label {
+    font-family: 'LexendDeca-Light', Helvetica, sans-serif;
+}
+
+button.btn-submit{
+    background-color: var(--col-primary);
+}
